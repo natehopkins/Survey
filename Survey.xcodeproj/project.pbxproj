@@ -13,6 +13,8 @@
 		D8A048461DB925B80004E055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A048451DB925B80004E055 /* Assets.xcassets */; };
 		D8A048491DB925B80004E055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A048471DB925B80004E055 /* LaunchScreen.storyboard */; };
 		D8A048511DB9281A0004E055 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A048501DB9281A0004E055 /* Survey.swift */; };
+		D8A048531DB92DF70004E055 /* SurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A048521DB92DF70004E055 /* SurveyController.swift */; };
+		D8A048551DB932D50004E055 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A048541DB932D50004E055 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D8A048481DB925B80004E055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8A0484A1DB925B80004E055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8A048501DB9281A0004E055 /* Survey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		D8A048521DB92DF70004E055 /* SurveyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyController.swift; sourceTree = "<group>"; };
+		D8A048541DB932D50004E055 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D8A048471DB925B80004E055 /* LaunchScreen.storyboard */,
 				D8A0484A1DB925B80004E055 /* Info.plist */,
 				D8A048501DB9281A0004E055 /* Survey.swift */,
+				D8A048521DB92DF70004E055 /* SurveyController.swift */,
+				D8A048541DB932D50004E055 /* NetworkController.swift */,
 			);
 			path = Survey;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A048551DB932D50004E055 /* NetworkController.swift in Sources */,
 				D8A048511DB9281A0004E055 /* Survey.swift in Sources */,
+				D8A048531DB92DF70004E055 /* SurveyController.swift in Sources */,
 				D8A048411DB925B80004E055 /* ViewController.swift in Sources */,
 				D8A0483F1DB925B80004E055 /* AppDelegate.swift in Sources */,
 			);
@@ -306,6 +314,7 @@
 				D8A0484F1DB925B80004E055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
