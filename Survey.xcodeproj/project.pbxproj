@@ -14,7 +14,8 @@
 		D8A048511DB9281A0004E055 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A048501DB9281A0004E055 /* Survey.swift */; };
 		D8A048531DB92DF70004E055 /* SurveyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A048521DB92DF70004E055 /* SurveyController.swift */; };
 		D8A048551DB932D50004E055 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A048541DB932D50004E055 /* NetworkController.swift */; };
-		D8A0485A1DB93B7E0004E055 /* SurveyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A048591DB93B7E0004E055 /* SurveyTableViewController.swift */; };
+		D8A0485D1DB9410A0004E055 /* LanguagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0485C1DB9410A0004E055 /* LanguagesTableViewController.swift */; };
+		D8A0485F1DB941400004E055 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0485E1DB941400004E055 /* SurveyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		D8A048501DB9281A0004E055 /* Survey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
 		D8A048521DB92DF70004E055 /* SurveyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyController.swift; sourceTree = "<group>"; };
 		D8A048541DB932D50004E055 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
-		D8A048591DB93B7E0004E055 /* SurveyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTableViewController.swift; sourceTree = "<group>"; };
+		D8A0485C1DB9410A0004E055 /* LanguagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguagesTableViewController.swift; sourceTree = "<group>"; };
+		D8A0485E1DB941400004E055 /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 		D8A0485B1DB93B910004E055 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D8A048591DB93B7E0004E055 /* SurveyTableViewController.swift */,
+				D8A0485E1DB941400004E055 /* SurveyViewController.swift */,
+				D8A0485C1DB9410A0004E055 /* LanguagesTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -178,10 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8A0485A1DB93B7E0004E055 /* SurveyTableViewController.swift in Sources */,
+				D8A0485D1DB9410A0004E055 /* LanguagesTableViewController.swift in Sources */,
 				D8A048551DB932D50004E055 /* NetworkController.swift in Sources */,
 				D8A048511DB9281A0004E055 /* Survey.swift in Sources */,
 				D8A048531DB92DF70004E055 /* SurveyController.swift in Sources */,
+				D8A0485F1DB941400004E055 /* SurveyViewController.swift in Sources */,
 				D8A0483F1DB925B80004E055 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
